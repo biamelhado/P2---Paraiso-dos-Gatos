@@ -1,513 +1,231 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    font-family: Verdana;
-    background-color: #89c9ee;
+:root {
+  font-family: Verdana;
+  background-color: #89c9ee;
 }
-
-#na{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 0rem;
-}
-
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  main {
-    margin: 20px;
-  }
-  
-  #menu {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #FB9596;
-    padding: 2rem;
-    font-size: 1.4rem;
-    border-radius: 2rem;
-  }
-  
-  #menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #menu li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  #menu a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  #menu a:hover {
-    color: #fff;
-  }
-  
-  #corp {
-    margin-top: 20px;
-    line-height: 1.6;
-  }
-  
-  h1, h3 {
-    color: #333;
-  }
-
-ul{
-    list-style-type: none;
-    display: inline-block
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-li{
-    display: inline;
-    margin: auto;
+main {
+  margin: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: #f0f0f0
+#menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FB9596;
+  padding: 2rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
 }
 
-nav.menu{
-    position: relative;
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.menuinfos {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #f0f0f0;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-
-.cuidadosinfo {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #f0f0f0;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-
-  .sobrenos{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #f0f0f0;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-  .comunidadeinfos{
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      
-      main {
-        margin: 20px;
-      }
-      
-      #menu {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #FB9596;
-        padding: 2rem;
-        font-size: 1.4rem;
-        border-radius: 2rem;
-      }
-      
-      #menu ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      #menu li {
-        display: inline-block;
-        margin-right: 10px;
-      }
-      
-      #menu a {
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-      }
-      
-      #menu a:hover {
-        color: #fff;
-      }
-      
-      .comunidadeinfos {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-      }
-      
-      .comunidadeinfos h1, .comunidadeinfos h2 {
-        color: #333;
-      }
-      
-      .comunidadeinfos p {
-        line-height: 1.6;
-      }
-      
-      button{
-      select {
-        padding: 10px;
-        margin: 5px 0;
-        border: 1px solid #006eff;
-        border-radius: 4px;
-      }
-      
-      button {
-        background-color: #006eff;
-        color: #fff;
-        padding: 10px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      button:hover {
-        background-color: #a04563;
-      }
-    }
-      .comment1, .comment2, .comment3, .comment4, .comment5 {
-        background-color: #f5f5f5;
-        padding: 15px;
-        margin: 20px 0;
-        border-radius: 8px;
-      }
-      
-      .comment1 img, .comment2 img, .comment3 img, .comment4 img, .comment5 img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-top: 10px;
-        object-fit: cover;
-        max-height: 200px; /* Ajuste a altura conforme necessário */
-      }
-  }
-
-  .comment1{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #ffc7da;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-
-  .comment2{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #ffc7da;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-
-  .comment3{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #ffc7da;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-
-  .comment4{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #ffc7da;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-
-  .comment5{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #ffc7da;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-
-
-#corp{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #f0f0f0;
-    display: flex;
-    flex-flow: row wrap;
-    align-items:flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
+#menu li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
+#menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
 
+#menu a:hover {
+  color: #fff;
+}
 
-body, h2, form {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #ffc7da; 
-  }
-  
-  #forum 
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #forum {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-  }
-  
-  label {
-    margin-top: 10px;
-    color: #555;
-  }
-  
-  input,
-  select {
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #006eff;
-    border-radius: 4px;
-  }
-  
-  button {
-    background-color: #006eff;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #a04563;
-  }
-  
-  #Cadastrar {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #333;
-    margin-top: 10px;
-  }
-  
-  #Cadastrar:hover {
-    text-decoration: underline;
-  }
-  
-  .sobrenos {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color:  #ffdee9;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-  
+#corp,
+.menuinfos,
+.cuidadosinfo,
+.sobrenos,
+.comunidadeinfos,
+.comment1,
+.comment2,
+.comment3,
+.comment4,
+.comment5 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 0rem;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: auto;
+  height: auto;
+  border: 5rem;
+  padding: 2rem;
+  font-size: 100%;
+  border-radius: 1rem;
+}
 
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #menu {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #FB9596;
-    padding: 2rem;
-    font-size: 1.4rem;
-    border-radius: 2rem;
-  }
-  
-  #menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #menu li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  #menu a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  #menu a:hover {
-    color: #fff;
-  }
-  
-  .sobrenos {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 0rem;
-    background-color: #f0f0f0;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: auto;
-    height: auto;
-    border: 5rem;
-    padding: 2rem;
-    font-size: 100%;
-    border-radius: 1rem;
-  }
-  
-  .sobrenos h1 {
-    color: #333;
-  }
-  
-  .sobrenos p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  .desenvolvedoras {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .desenvolvedora {
-    text-align: center;
-  }
-  
-  .desenvolvedora img {
-    border-radius: 50%;
-    max-width: 150px;
-    margin-bottom: 10px;
-  }
-  
-  .desenvolvedora span {
-    font-weight: bold;
-  }
+.comunidadeinfos {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.comunidadeinfos h1,
+.comunidadeinfos h2 {
+  color: #333;
+}
+
+.comunidadeinfos p {
+  line-height: 1.6;
+}
+
+button {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #006eff;
+  border-radius: 4px;
+  background-color: #006eff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a04563;
+}
+
+.comment1,
+.comment2,
+.comment3,
+.comment4,
+.comment5 {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.comment1 img,
+.comment2 img,
+.comment3 img,
+.comment4 img,
+.comment5 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+#corp {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+h1,
+h3,
+.sobrenos h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li {
+  display: inline;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+nav.menu {
+  position: relative;
+}
+
+body,
+h2,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffc7da;
+}
+
+#forum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  margin-top: 10px;
+  color: #555;
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #006eff;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #006eff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a04563;
+}
+
+#Cadastrar {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  margin-top: 10px;
+}
+
+#Cadastrar:hover {
+  text-decoration: underline;
+}
